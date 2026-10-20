@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medusa clinic</title>
+    <link rel="stylesheet" href="static/css/medusa.css">
+</head>
+<body>
+ 
+    <header class="header-container">
+        <h1>MEDUSA CLINIC</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <img src="static/images/tools.jpg" alt="" width="200" height="100">
+    <img src="static/images/udoctors.jpg" alt="" width="200" height="100">
+        <marquee behavior="scroll" direction="right">GET WELL SOON!!!</marquee>
+
+    <div class="form-container">
+        <h2>Details Form</h2>
+        <p>Kindly fill in the form</p>
+        <label for="fname">First Name:</label>
+        <input type="text" name="name" id="name" required>
+        <br><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender" required>
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select><br><br>
+         <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        <label for="number">Phone Number</label>
+        <input type="tel" id="number" name="number" maxlength="10" minlength="10"  pattern="[0-9]{10}" inputmode="numeric" required><br><br>
+        <label for="service">Type of service needed</label>
+        <select name="service" id="service">
+          <option value="">Select</option>
+           <option value="optics">Optics</option>
+           <option value="maternity">Maternity</option>
+           <option value="dental">Dental</option>
+           <option value="ent">ENT</option>
+           <option value="general">General</option></select><br><br>
+        <label for="insuarance">Type of Insuarance cover</label>
+        <input type="insuarance" name="insuarance" id="insuarance" required><br><br>
+        <input type="submit" value="Submit">
+        </div>
+        </body>
+
+</html>

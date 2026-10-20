@@ -1,0 +1,47 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    place-items:center ;
+    background-color: aquamarine;
+    padding: 15px 20px;
+}
+
+.header-container h1 {
+    margin:0;
+    font-size: 48px;
+    background-color: aqua;
+}
+
+.header-container nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-bottom: 50px;
+    color: rgb(101, 60, 1);
+}
+marquee {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(46, 46, 228);
+    margin: 10px;
+}
+ body img{
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0px;
+    object-fit: scale-down;
+}
+
+.form-container {
+    display: inline-block;
+    text-align: left;
+    margin: 20px 0;
+}
